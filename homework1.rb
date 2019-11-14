@@ -7,3 +7,7 @@ while i < 11
 	i += 1
 end
 
+10.times do |i|
+	puts "this is loop #{i+1}"
+end
+

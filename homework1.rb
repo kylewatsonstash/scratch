@@ -8,6 +8,6 @@
 # end
 
 10.times do |i|
-	puts "this is second instance of running loop #{i+1}"
+	puts "this is the second instance of running loop #{i+1}"
 end
 

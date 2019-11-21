@@ -8,20 +8,11 @@ while start < maximum
 	if 
 		start.even?
 		puts "yay"
-	else 
+	elsif
 		start.odd?
 		puts "boo"
 	end
 start += 1
 end
-
-# maximum.times do |start|
-# if start.even?
-# 	puts "yay"
-# else
-# 	puts "boo"
-# end
-# end
-
 
 

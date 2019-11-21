@@ -1,15 +1,27 @@
-# string interp . rb #{}
-# interator |i|
-# print v puts v p
-# if and else 
+#For all the numbers between 0 and 1000 check to see if 
+#the number is even and print out "yay" if it is, or "boo" if  it isn't
+
+start = 0
+maximum = 4
+
+while start < maximum
+	if 
+		start.even?
+		puts "yay"
+	else 
+		start.odd?
+		puts "boo"
+	end
+start += 1
+end
+
+# maximum.times do |start|
+# if start.even?
+# 	puts "yay"
+# else
+# 	puts "boo"
+# end
+# end
 
 
-person1 = {
-	first_name: "kyle",
-	last_name: "watson",
-	age: 29
-}
 
-puts person1[:first_name]
-
-# puts "the people are #{person1[:first_name]}, #{person2[:first_name]}"

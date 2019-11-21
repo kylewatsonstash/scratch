@@ -2,7 +2,7 @@
 #the number is even and print out "yay" if it is, or "boo" if  it isn't
 
 start = 0
-maximum = 4
+maximum = 1000
 
 while start < maximum
 	if 

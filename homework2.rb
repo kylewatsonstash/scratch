@@ -2,9 +2,9 @@
 #the number is even and print out "yay" if it is, or "boo" if  it isn't
 
 start = 0
-maximum = 1000
+maximum = 10
 
-while start < maximum
+while start < (maximum + 1)
 	if 
 		start.even?
 		puts "yay"

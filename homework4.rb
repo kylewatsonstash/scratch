@@ -11,18 +11,19 @@ class TeamPicker
     end
     def all_players
         [
-          "one",
-          "two",
-          "three",
-          "four",
-          "five",
-          "six",
-          "seven",
-          "eight",
-          "nine",
-          "ten"
+          "Larry",
+          "Barry",
+          "Cary",
+          "Gerry",
+          "Bob",
+          "Terry",
+          "Gary",
+          "Harry",
+          "Mary",
+          "Joe"
         ]
     end
+
     def random_five
       team = []
         if (all_players.size < 5); puts "gimme mo playas"
@@ -32,12 +33,23 @@ class TeamPicker
             if !team.include?(one_player)
               team << one_player
             end
-            end
+          end
         end
       puts team
     end
-end
 
-game = TeamPicker.new
-game.random_five
+    # def random_five
+    #   team = []
+    #         while (team.size < 5) 
+    #           one_player = all_players.sample
+    #         if !team.include?(one_player)
+    #           team << one_player
+    #         end
+    #       end
+    #   puts team
+    # end
+
+end
+TeamPicker.new.random_five
+
 
